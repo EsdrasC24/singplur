@@ -109,9 +109,3 @@ class English:
                     return singular
                 
         return None # there was not matches
-    
-if __name__ == '__main__':
-    e = English()
-    w = input('Ingrese una palabra en plural: ')
-    print(e.singularize(w))
-    
